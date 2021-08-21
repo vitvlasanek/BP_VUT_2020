@@ -1,0 +1,81 @@
+﻿<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<title>Rozcestník</title>
+<link rel = "icon" href = "FSI_icon.png"type = "image/x-icon">
+<style>.button {
+width: 50%;
+  color: white;
+  padding: 50px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: cadetblue; 
+  border: 1px solid white;
+}
+
+.button1{
+position: absolute;
+        top: 25%;
+        left: 25%;
+
+}
+
+.button2{
+position: absolute;
+        top: 50%;
+        left: 25%;
+
+}
+
+.button3{
+position: absolute;
+        top: 75%;
+        left: 25%;
+
+}
+
+
+.button1:hover {
+  color: white;
+  background-color: teal;
+  width: 80%;
+  position: absolute;
+        top: 25%;
+        left: 10%;
+
+
+}
+.button2:hover {
+  color: white;
+  background-color: teal;
+  width: 80%;
+  position: absolute;
+        top: 50%;
+        left: 10%;
+
+}
+.button3:hover {
+  color: white;
+  background-color: teal;
+  width: 80%;
+  position: absolute;
+        top: 75%;
+        left: 10%;
+
+}
+
+</style>
+
+</head>
+
+<body>
+<button class="button button1" onclick="window.location.href='prichody.php';">Příchody</button>
+<button class="button button2" onclick="window.location.href='uzivatele.php?sort=id';">Uživatelé</button>
+<button class="button button3" onclick="window.location.href='informace.html';">Info</button>
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+﻿a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightcyan;
+}
+.button {
+  float: left;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0px 0px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: teal; 
+  border: 1px solid white;
+}
+.button1{
+width: 25%;
+}
+.button2{
+width: 75%;
+}
+
+
+.button1:hover {
+  color: white;
+  background-color: red;
+}
+.button2:hover {
+  color: white;
+  background-color: green;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align:center;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+tr:hover {background-color:#808080;}
+ th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: Center;
+  background-color: teal;
+  color: white;
+}
+
+
+input[type=text], input[type=number] {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=number]:focus {
+  border: 3px solid #555;
+  width: 50%;
+
+}	
+input[type=submit]{
+	width: 24%;
+  background-color: teal;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+	background-color: cadetblue;
+}
+
+
