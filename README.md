@@ -1,4 +1,4 @@
-# BP_VUT_2020
+# ESP32 RFID access control
 
 složky z adresáře mikrokontroler je třeba nahrát do ardesáře s uloženými projekty a knihovnami (defaultně: ..dokumenty/Arduino)
 návod:
